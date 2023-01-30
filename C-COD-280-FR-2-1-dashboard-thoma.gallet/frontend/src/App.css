@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  position: absolute;
+  top:30%;
+  left:10%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  background-image: url('imageFond.jpeg');
+  min-height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.formLogin{
+position: absolute;
+  top: 50%;
+  left: 70%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+
+}
+
+.formLogin input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.formLogin .Link button{
+  text-decoration: none;
+  position: absolute;
+  right: 5%;
+  border-radius: 5px;
+  color: Blue;
+  text-decoration: none;
+  margin: 1rem;
+
+}
+
+.formSignUp{
+  position: absolute;
+    top: 50%;
+    left: 52%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .formSignUp input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+
+.app-h1{
+  position: absolute;
+  top:20%;
+  left:10%;
+}
+
+.meteo{
+  /* background-color: #2f3640; */
+  border-radius: 30px;
+  width: 20%;
+  height: 40%;
+  position: absolute;
+  top: 5%;
+  left: 65%;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+
+
+}
+.meteo input{
+  width: 60%;
+  padding: 2%;
+  color: black;
+  border-radius: 30px;
+  /* background-color: #2f3640; */
+}
+
+.dog{
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 30px;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 30%;
+  height: 40%;
+}
+
+.widgetTwitch{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  width: 30%;
+  height: 80%;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 30px;
+}
+
+.pokemon{
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  width: 20%;
+  height: 40%;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 30px;
+}
+
+.starwars{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  width: 20%;
+  height: 40%;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 30px;
+}
+
+
+

@@ -1,0 +1,24 @@
+h2{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 45%;
+    height: 40vh;
+}
+td, th{
+    border: 1px solid black;
+}
+.admin{
+    display: flex;
+    justify-content: center;
+}
+.trash{
+    background-color: white;
+    border: none;
+}
+.edit{
+    background-color: white;
+    border: none;
+}

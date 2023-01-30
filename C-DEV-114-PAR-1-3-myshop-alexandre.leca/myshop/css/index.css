@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;}
+    .container{
+       flex: 1;
+       width: 100%;
+       display: block;
+        
+        padding-left: 25px;
+        padding-right: 25px;}
+.row{
+display: flex;
+align-items:center;
+justify-content: space-around;
+margin: 10px;
+
+}
+.col-2{
+    flex-basis: 40%;
+    min-width: 100px;
+    max-width: 1000px;
+    margin-left: 5%;
+
+}
+.col-2 img{
+    width: 80%;
+    }
+.col-2 h1 {
+    font-size: 30px;
+    line-height: 35px;
+    margin: 25px 0;
+    font-family: 'Anek Latin', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+}
+.col-2 p{
+    color: #555;
+    font-family: 'Anek Latin', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.col-3{
+flex-basis: 33%;
+  display: inline-block ;
+  
+    margin: 5%;
+    
+    
+}
+.col-3 img{
+    width: 100%;
+   
+    
+}
+
+
+.container2{
+    display: flex;
+    align-items: stretch;
+    padding: 20px;
+}
+h3 {position: absolute;
+    display:inline;
+    left: 45%;
+    font-family: 'Anek Latin', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+}
+select {
+    margin: 0;
+    padding-left: 15px;
+    color: #121111;
+    cursor: pointer;
+    background-color: rgba(230, 183, 43, 0.929);
+    border: 1px solid black;
+    width: 20%;
+    height: 15%;
+    font-family: 'Anek Latin', sans-serif;
+
+        font-family: 'Open Sans', sans-serif;
+    
+        font-family: 'Roboto', sans-serif;
+    }
+    .col-3 p{
+        font-family: 'Anek Latin', sans-serif;
+
+        font-family: 'Open Sans', sans-serif;
+    
+        font-family: 'Roboto', sans-serif;
+        color:rgba(116, 116, 115, 0.929);
+    }
+    .col-3 h4{ font-family: 'Anek Latin', sans-serif;
+
+        font-family: 'Open Sans', sans-serif;
+    
+        font-family: 'Roboto', sans-serif;
+
+    }
+    @media  screen and ( max-width:600PX) {
+        
+        
+            .row{display: block;
+                width: 100%;
+
+            }
+            .row img{
+                display: flex;
+                
+            }
+           
+
+    }
+   
+        
+    
+
+ 
+    
+
+    
+
+    

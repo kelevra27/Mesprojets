@@ -1,0 +1,42 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "dotenv": "^16.0.3",
+    "express-validator": "^6.14.2",
+    "google-auth-library": "^8.5.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.2",
+    "multer": "^1.4.5-lts.1",
+    "stripe": "^10.13.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "apidoc": {
+    "name": "API Documentation",
+    "version": "0.1.0",
+    "description": "Game",
+    "title": "My Api Doc",
+    "url": "http://localhost:8000"
+  }
+}

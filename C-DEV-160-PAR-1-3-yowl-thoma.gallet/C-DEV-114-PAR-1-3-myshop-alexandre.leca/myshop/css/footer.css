@@ -1,0 +1,16 @@
+.container4{
+    background-color:  rgb(212, 209, 209);
+    display: flex;
+    width: 100%;
+    
+align-items:center;
+justify-content: space-around;
+margin: 10px;
+
+}
+.container4 img{
+    flex-basis: 20%;
+      display: inline-block ;
+      margin: 5%;
+      width: 40%;
+}
